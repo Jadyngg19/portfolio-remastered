@@ -5,3 +5,38 @@
     padding: 0;
     font-family: 'Kalam', cursive;
 }
+
+body{
+    background-color: #39A9DB;
+}
+
+h1, h4, p, a{
+    color: #D63230;
+    text-decoration: none;
+}
+
+ul{
+  list-style-type: none;  
+}
+
+.btn{
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: #1C77C3;
+    color: black;
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-light {
+    background: transparent;
+    color: white;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    transition: 0.3s;
+}
