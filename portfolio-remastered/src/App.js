@@ -4,7 +4,6 @@ import "./index"
 function App() {
   return (
     <div>
-
     </div>
   );
 }
