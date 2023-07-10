@@ -24,6 +24,7 @@
 
 .hamburger-menu{
     display: none;
+    color: #FF006E;
 }
 
 @media screen and (max-width: 1040px) {

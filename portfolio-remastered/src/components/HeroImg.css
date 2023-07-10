@@ -20,7 +20,7 @@ object-fit: cover;
     top: 0;
     left: 0;
     background-color: black;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .hero{
@@ -45,6 +45,7 @@ object-fit: cover;
     font-size: 1.4rem;
     font-weight: 200;
     text-transform: uppercase;
+    margin-bottom: 3rem;
 }
 
 .content .button{
