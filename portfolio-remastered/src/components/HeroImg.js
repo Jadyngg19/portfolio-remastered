@@ -1,16 +1,18 @@
-import "./HeroImg.css"; 
+import "./HeroImg.css";
 
+import React from "react";
 
-import React from 'react'
+import IntroImg from "../assests/HomePage.jpeg"
 
-const Heroimg = () => {
-  return (
-    <div className="hero">
-        <div className="mask">
-
-        </div>
+const HeroImg = () => {
+  return <div className="hero">
+    <div className="mask">
+    <img class="Intro-Img" src={IntroImg} alt="IntroImg"/>
     </div>
-  )
-}
+    <div className="content">
+    <p>I am a Junior Web Developer with a passion for coding and creating dynamic websites</p>
+    </div>
+  </div>;
+};
 
-export default Heroimg;
+export default HeroImg;
