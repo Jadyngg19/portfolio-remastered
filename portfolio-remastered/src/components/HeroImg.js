@@ -2,7 +2,7 @@ import "./HeroImg.css";
 
 import React from "react";
 
-import IntroImg from "../assests/HomePage.jpeg";
+import IntroImg from "../assets/HomePage.jpeg";
 import {Link} from "react-router-dom";
 
 const HeroImg = () => {
