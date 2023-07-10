@@ -36,9 +36,13 @@
         background: #39A9DB;
         position: absolute;
         top: 0;
-        left: 0;
+        left: -100%;
         z-index: -3;
 
+    }
+
+    .nav-menu.active{
+        left: 0;
     }
 
     .nav-menu li{

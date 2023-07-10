@@ -13,7 +13,7 @@ const handleClick = () => setClick(!click);
         <Link to="/">
             <h1 className="nav-bar-header">JG's Portfolio</h1>
         </Link>
-        <ul className="nav-menu">
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li>
                 <Link to="/">All About Me</Link>
             </li>
