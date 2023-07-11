@@ -10,6 +10,7 @@
     background-size: cover;
     background-position: center;
     object-fit: cover;
+    z-index: -1;
     }
     
     .mask::after{
@@ -32,13 +33,18 @@
     }
     
     .hero .content h1{
-        font-size: 4rem;
+        font-size: 2.4rem;
         padding: 0.6rem 0 1.5rem;
     }
     
     .hero .content p{
         font-size: 1.4rem;
+        text-align: center;
         font-weight: 200;
         text-transform: uppercase;
         margin-bottom: 3rem;
+    }
+
+    @media screen {
+        
     }
