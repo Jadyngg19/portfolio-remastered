@@ -4,7 +4,13 @@ import React from 'react'
 
 const WorkCard = () => {
   return (
-    <div>WorkCard</div>
+    <div className="work-container">
+        <h1 className="project-heding">Projects</h1>
+        <div className="project-container">
+            <div className="project-card">
+            </div>
+        </div>
+    </div>
   )
 }
 
