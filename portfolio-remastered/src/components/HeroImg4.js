@@ -13,10 +13,28 @@ const HeroImg4 = () => {
         <div className="content">
             <h1>Resume</h1>
             <p>
-                <ul>
-                    <li>
-                        
-                    </li>
+            <ul style={{ marginBottom: '20px' }}>
+                    <li>All-Around Skills</li>
+                    <li>Customer Service and Assistance</li>
+                    <li>Willingness to Lead</li>
+                    <li>Information Gathering</li>
+                    <li>Willingness to Lead</li>
+                    <li>Team Member Training</li>
+                    <li>First Aid/CPR</li>
+                    <li>Spanish - Bilingual</li>
+                </ul>
+                <ul style={{ marginBottom: '0' }}>
+                    <li>Technical Skills</li>
+                    <li>JavaScript</li>
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>GitHub</li>
+                    <li>GitLab</li>
+                    <li>Bootstrap</li>
+                    <li>J.Query</li>
+                    <li>MySQL</li>
+                    <li>Node.js</li>
+                    <li>React</li>
                 </ul>
             </p>
         </div>
