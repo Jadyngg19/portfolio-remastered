@@ -4,7 +4,7 @@ import React from 'react';
 import proj1 from "../assets/Project1.png";
 import { NavLink } from "react-router-dom";
 
-const WorkCard = () => {
+const Work = () => {
   return (
     <div className="work-container">
         <h1 className="project-heading">Projects</h1>
@@ -25,4 +25,4 @@ const WorkCard = () => {
   )
 }
 
-export default WorkCard;
+export default Work;
