@@ -5,7 +5,7 @@ import proj3 from "../assets/Project3.png";
 const ProjectCardData = [
     {
         imgsrc: proj1,
-        title: "Social API",
+        title: "Technically Social API",
         text: "This social network API is a platform that enables users to engage and interact with a set of features, fostering connections and facilitating seamless communication. With a range of functionalities, users can create, update, and delete user profiles, thoughts, reactions, and establish meaningful friend connections.",
         view: "https://photos.app.goo.gl/JyFSGB6EPSSf5iFi8",
         source: "https://github.com/Jadyngg19/Technically-Social-API"

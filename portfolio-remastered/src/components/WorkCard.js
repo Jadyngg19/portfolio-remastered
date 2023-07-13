@@ -12,7 +12,7 @@ const WorkCard = (props) => {
                     <p>{props.text}</p>
                     <div className="proj-buttons">
                         <NavLink to={props.view} className="button">View</NavLink>
-                        <NavLink to={props.source} className="button">Source</NavLink>
+                        <NavLink to={props.source} className="button">Code</NavLink>
                     </div>
                 </div>
             </div>
