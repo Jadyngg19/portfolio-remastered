@@ -5,8 +5,8 @@ import proj3 from "../assets/Project3.png";
 const ProjectCardData = [
     {
         imgsrc: proj1,
-        title: "Technicaly Social API",
-        text: "This is a social network API that allows users to interact with various features such as creating, updating, and deleting users, thoughts, reactions, and friend connections. The API is built using Node.js, Express.js, and MongoDB with Mongoose as the ODM.",
+        title: "Social API",
+        text: "This social network API is a platform that enables users to engage and interact with a set of features, fostering connections and facilitating seamless communication. With a range of functionalities, users can create, update, and delete user profiles, thoughts, reactions, and establish meaningful friend connections.",
         view: "https://photos.app.goo.gl/JyFSGB6EPSSf5iFi8",
         source: "https://github.com/Jadyngg19/Technically-Social-API"
     },
@@ -14,7 +14,7 @@ const ProjectCardData = [
     {
         imgsrc: proj2,
         title: "My Personal Notepad",
-        text: "This is a note-taking application that allows you to create, edit, and manage notes in a user-friendly interface.",
+        text: "This note-taking application offers a user-friendly interface combined with powerful features for creating, editing, and managing your notes efficiently. It strives to simplify the note-taking process, boost organization, and foster collaboration, making it an indispensable tool for anyone seeking to streamline their workflow and capture ideas effectively.",
         view: "https://my-personal-notepad.herokuapp.com/",
         source: "https://github.com/Jadyngg19/My-Personal-Notepad"
     },
@@ -22,7 +22,7 @@ const ProjectCardData = [
     {
         imgsrc: proj3,
         title: "Coder's Corner",
-        text: "Coder's Corner is a CMS-style blog site that allows users to create, read, update, and delete blog posts. Users can sign up, sign in, and log out to manage their blog posts. The site also supports leaving comments on blog posts.",
+        text: "Coder's Corner is a feature-rich CMS-style blog site that caters to the needs of tech enthusiasts, developers, and anyone passionate about coding. It provides a dynamic platform where users can effortlessly create, read, update, and delete their blog posts, fostering an environment that encourages knowledge sharing and collaboration.",
         view: "https://coders-corner.herokuapp.com/",
         source: "https://github.com/Jadyngg19/Coders-Corner"
     }

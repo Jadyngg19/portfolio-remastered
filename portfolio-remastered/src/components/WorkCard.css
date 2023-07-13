@@ -9,7 +9,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
-    padding-bottom: 5rem;
 }
 
 .project-card{
@@ -30,7 +29,7 @@
 .proj-details{
     padding-bottom: 1rem;
     font-size: 1.1rem;
-    text-align: justify;
+    text-align: center;
 }
 
 .proj-buttons{
