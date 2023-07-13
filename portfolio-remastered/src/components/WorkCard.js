@@ -1,6 +1,6 @@
 import "./WorkCard.css";
 
-import React from 'react'
+import React from 'react';
 import proj1 from "../assets/Project1.jpg";
 import { NavLink } from "react-router-dom";
 
