@@ -7,7 +7,7 @@ const HeroImg2 = () => {
     <div className="hero-img2">
       <div className="heading">
         <h1>Projects</h1>
-        <p>Some of my most recent work</p>
+        <p>Some of my work as a developer</p>
       </div>
     </div>
   )
