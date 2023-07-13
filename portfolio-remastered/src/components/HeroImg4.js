@@ -60,7 +60,7 @@ const HeroImg4 = () => {
     </div>
     <div className="button-container">
         <Button variant="primary" onClick={handleDownloadResume}>
-          Download Resume
+          Download My Full Resume
         </Button>
       </div>
     </div>
