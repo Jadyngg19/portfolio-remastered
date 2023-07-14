@@ -4,7 +4,7 @@ import Home from "./routes/HomePage";
 import Projects from "./routes/Projects";
 import ContactInfo from "./routes/ContactInfo";
 import Resume from "./routes/Resume";
-import {Route, Switch, HashRouter} from "react-router-dom";
+import { HashRouter, Switch, Route } from 'react-router-dom'; 
 
 function App() {
   return (
