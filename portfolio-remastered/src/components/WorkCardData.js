@@ -1,6 +1,6 @@
 import proj1 from "../assets/Project1.png";
 import proj2 from "../assets/Project2.png";
-import proj3 from "../assets/Project3.png";
+import proj3 from "../assets/Project4.png";
 
 const ProjectCardData = [
     {
