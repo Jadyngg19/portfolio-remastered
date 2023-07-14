@@ -2,14 +2,14 @@ import React from 'react'
 
 import NavBar from "../components/NavBar/index";
 import Footer from "../components/Footer/index";
-import HeroImg3 from "../components/Contact/index";
+import Contact from "../components/Contact/index";
 import Form from "../components/Form/index"
 
 const ContactInfo = () => {
   return (
     <div>
     <NavBar/>
-    <HeroImg3/>
+    <Contact/>
     <Form/>
     <Footer/>
     </div>
