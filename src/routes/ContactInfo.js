@@ -1,9 +1,9 @@
 import React from 'react'
 
-import NavBar from "../components/NavBar/NavBar";
-import Footer from "../components/Footer";
-import HeroImg3 from "../components/HeroImg3";
-import Form from "../components/Form"
+import NavBar from "../components/NavBar/index";
+import Footer from "../components/Footer/index";
+import HeroImg3 from "../components/Contact/index";
+import Form from "../components/Form/index"
 
 const ContactInfo = () => {
   return (

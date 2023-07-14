@@ -1,9 +1,9 @@
 import React from 'react'
 
-import NavBar from "../components/NavBar/NavBar";
-import Footer from "../components/Footer";
-import HeroImg2 from "../components/HeroImg2";
-import ExtraProjs from "../components/ExtraProjs";
+import NavBar from "../components/NavBar/index";
+import Footer from "../components/Footer/index";
+import HeroImg2 from "../components/ProjectsPage/index";
+import ExtraProjs from "../components/EarlyWorks/index";
 import Work from "../components/Work";
 
 const Projects = () => {
