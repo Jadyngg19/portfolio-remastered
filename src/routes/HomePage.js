@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar/index";
 import HomePage from "../components/HomePage/index";
-import Footer from "../components/ContactForm/index";
+import Footer from "../components/Footer/index";
 
 const Home  = () => {
     return (

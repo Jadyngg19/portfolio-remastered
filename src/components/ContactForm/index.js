@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './style.css';
 
 const Form = () => {
@@ -7,6 +10,7 @@ const Form = () => {
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
   const [errors, setErrors] = useState({});
+  const [isSuccess, setIsSuccess] = useState(false);
 
   const validateForm = () => {
     const validationErrors = {};
@@ -57,24 +61,45 @@ const Form = () => {
     }
   };
 
-  const handleSubmit = (e) => {
+  
+  const sendEmail = (e) => {
     e.preventDefault();
-
+  
     if (validateForm()) {
-      // Handle form submission
-      console.log('Form submitted!');
-      // Reset form fields
-      setName('');
-      setEmail('');
-      setSubject('');
-      setMessage('');
-      setErrors({});
+      const templateParams = {
+        from_name: name,
+        from_email: email,
+        subject: subject,
+        message: message,
+      };
+  
+      emailjs
+        .send('service_6klu6s6', 'template_x4m4js5', templateParams, 'i6DjiwqfbXB38cR85')
+        .then((response) => {
+          console.log('Email sent successfully!', response.status, response.text);
+          setIsSuccess(true);
+          // Reset form fields
+          setName('');
+          setEmail('');
+          setSubject('');
+          setMessage('');
+          setErrors({});
+          toast.success('Email sent successfully!', {
+            position: toast.POSITION.TOP_CENTER
+          });
+        })
+        .catch((error) => {
+          console.error('Error sending email:', error);
+          toast.error('Error sending email. Please try again.', {
+            position: toast.POSITION.TOP_CENTER 
+          });
+        });
     }
-  };
+  };  
 
   return (
     <div className="form">
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={sendEmail}>
         <label>Your Name</label>
         <input type="text" name="name" value={name} onBlur={handleBlur} onChange={handleChange} />
         {errors.name && <span className="error-message">{errors.name}</span>}
@@ -95,6 +120,7 @@ const Form = () => {
           Submit
         </button>
       </form>
+      <ToastContainer /> 
     </div>
   );
 };

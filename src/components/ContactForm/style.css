@@ -35,4 +35,10 @@ label {
     color: #FFBE0B;
     margin-top: 0.25rem;
   }
-  
+
+  .success-message {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: green; 
+    display: block; 
+    text-align: center;
+  } 

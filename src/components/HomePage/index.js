@@ -1,5 +1,4 @@
 import "./style.css";
-
 import React from "react";
 import { Link } from "react-router-dom";
 import IntroImg from "../../assets/HomePage.jpeg";
