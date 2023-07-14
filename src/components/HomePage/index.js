@@ -2,8 +2,8 @@ import "./style.css";
 
 import React from "react";
 import { Link } from "react-router-dom";
-import IntroImg from "../assets/HomePage.jpeg";
-import ProfileImg from "../assets/profilepic.jpg";
+import IntroImg from "../../assets/HomePage.jpeg";
+import ProfileImg from "../../assets/profilepic.jpg";
 
 const HeroImg = () => {
   return (
