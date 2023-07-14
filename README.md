@@ -28,6 +28,12 @@ Once the portfolio is loaded, you can navigate through different sections withou
 
 By default, when you first load the portfolio, the "About Me" section will be selected and displayed.
 
+![HomePage Screenshot](./src/assets/HomePagesc.png)
+![Projects Screenshot](./src/assets/Projectsc.png)
+![Early Works Screenshot](./src/assets/EarlyWorkssc.png)
+![Contact Form Screenshot](./src/assets/CotactFormsc.png)
+![Resume Screenshot](./src/assets/Resumesc.png)
+
 ## Features
 
 * About Me
