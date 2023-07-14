@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.2dc8681e.css",
+    "main.js": "/my-app/static/js/main.58cf03db.js",
+    "static/media/HomePage.jpeg": "/my-app/static/media/HomePage.58e0e07c702007964edb.jpeg",
+    "static/media/Contact.jpg": "/my-app/static/media/Contact.514cbcbf648e6482d114.jpg",
+    "static/media/Projects.jpg": "/my-app/static/media/Projects.210ff9d162f9f00f371c.jpg",
+    "static/media/profilepic.jpg": "/my-app/static/media/profilepic.61b40fc3fc27a8b1fd14.jpg",
+    "static/media/Resume.jpg": "/my-app/static/media/Resume.a4b7b36ce0e8fd74787a.jpg",
+    "static/media/Project4.png": "/my-app/static/media/Project4.769f998a25bab3f03e0d.png",
+    "static/media/Project1.png": "/my-app/static/media/Project1.5ebffe6126f8a6aebb44.png",
+    "static/media/Project2.png": "/my-app/static/media/Project2.e26dbfa46195667d385f.png",
+    "index.html": "/my-app/index.html",
+    "main.2dc8681e.css.map": "/my-app/static/css/main.2dc8681e.css.map",
+    "main.58cf03db.js.map": "/my-app/static/js/main.58cf03db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dc8681e.css",
+    "static/js/main.58cf03db.js"
+  ]
+}
