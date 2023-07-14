@@ -1,4 +1,4 @@
-import "./HeroImg4.css";
+import "./style.css";
 import Button from 'react-bootstrap/Button';
 import React from 'react';
 
