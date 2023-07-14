@@ -2,7 +2,7 @@
   "name": "portfolio-remastered",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://jadyngg19.github.io/portfolio-remastered",
+  "homepage": ".",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@testing-library/jest-dom": "^5.16.5",
