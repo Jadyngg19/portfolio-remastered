@@ -37,11 +37,11 @@
   }
 
   .hero .profile-img {
-    width: 150px; /* Adjust the size of the profile picture as needed */
+    width: 150px;
     height: 150px;
-    border-radius: 50%; /* Make the image round */
+    border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 10px; /* Add a small margin at the bottom */
+    margin-bottom: 10px;
   }
   
   .hero .content h1 {
