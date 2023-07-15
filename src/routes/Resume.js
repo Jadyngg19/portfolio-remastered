@@ -1,17 +1,12 @@
-import React from 'react'
-
-import NavBar from "../components/NavBar/index";
-import Footer from "../components/Footer/index";
+import React from 'react'; 
 import HeroImg4 from '../components/Resume/index';
 
 const Resume = () => {
   return (
     <div>
-    <NavBar/>
-    <HeroImg4/>
-    <Footer/>
+      <HeroImg4/>
     </div>
-  )
-}
+  ); 
+}; 
 
 export default Resume;

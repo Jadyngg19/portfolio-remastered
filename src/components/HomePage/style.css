@@ -66,10 +66,34 @@
     }
   
     .hero .content p {
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
 
     .content .button {
       margin: 3rem 0.5rem;
+      font-size: 0.8rem;
+    }
+
+    .button-light {
+      font-size: 0.8rem;
+    }
+  }  
+
+  @media screen and (max-width: 390px) {
+    .hero .content h1 {
+      font-size: 1.2rem;
+    }
+  
+    .hero .content p {
+      font-size: 0.6rem;
+    }
+
+    .content .button {
+      margin: 3rem 0.5rem;
+      font-size: 0.6rem;
+    }
+
+    .button-light {
+      font-size: 0.6rem;
     }
   }  
