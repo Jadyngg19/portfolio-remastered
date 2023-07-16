@@ -18,6 +18,10 @@ const changeColor = () =>{
     }
 };
 
+const handleMenuItemClick = () => {
+    setClick(false); // Close the mobile menu when a menu item is clicked
+  };
+
 window.addEventListener("scroll", changeColor);
 
   return (
@@ -27,16 +31,16 @@ window.addEventListener("scroll", changeColor);
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li>
-                <Link to="/">All About Me</Link>
+                <Link to="/" smooth={true} duration={1000} onClick={handleMenuItemClick}>All About Me</Link>
             </li>
             <li>
-                <Link to="/Projects">Projects</Link>
+                <Link to="/Projects" smooth={true} duration={1000} onClick={handleMenuItemClick}>Projects</Link>
             </li>
             <li>
-                <Link to="/ContactInfo">Contact</Link>
+                <Link to="/ContactInfo" smooth={true} duration={1000} onClick={handleMenuItemClick}>Contact</Link>
             </li>
             <li>
-                <Link to="/Resume">Resume</Link>
+                <Link to="/Resume" smooth={true} duration={1000} onClick={handleMenuItemClick}>Resume</Link>
             </li>
         </ul>
         <div className="hamburger-menu" onClick={handleClick}>
