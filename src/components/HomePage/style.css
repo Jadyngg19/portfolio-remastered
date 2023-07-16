@@ -67,6 +67,7 @@
   
     .hero .content p {
       font-size: 0.8rem;
+      max-width: 90vw; 
     }
 
     .content .button {
@@ -85,7 +86,7 @@
     }
   
     .hero .content p {
-      font-size: 0.6rem;
+      font-size: 0.6rem; 
     }
 
     .content .button {
@@ -96,10 +97,4 @@
     .button-light {
       font-size: 0.6rem;
     }
-  }  
-
-  @media screen and (max-height: 600px) {
-    .hero .content {
-      margin-top: 20px;
-    } 
   }  
