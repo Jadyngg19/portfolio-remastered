@@ -61,13 +61,16 @@
   }
   
   @media screen and (max-width: 640px) {
+    .hero .content {
+      width: 90vw; 
+    }
+
     .hero .content h1 {
       font-size: 2rem;
     }
   
     .hero .content p {
       font-size: 0.8rem;
-      max-width: 90vw; 
     }
 
     .content .button {
