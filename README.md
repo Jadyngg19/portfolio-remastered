@@ -36,20 +36,15 @@ By default, when you first load the portfolio, the "About Me" section will be se
 
 ## Features
 
-* About Me
-In the "About Me" section, you will find a recent photo or avatar of the developer, along with a short bio that provides insights into their background, skills, and professional journey.
+* About Me - In the "About Me" section, you will find a recent photo or avatar of the developer, along with a short bio that provides insights into their background, skills, and professional journey.
 
-* Projects
-The "Projects" section showcases the developer's applications. It displays titled images of six applications, each accompanied by links to both the deployed application and its corresponding GitHub repository. You can explore the developer's projects by clicking on these links.
+* Projects - The "Projects" section showcases the developer's applications. It displays titled images of six applications, each accompanied by links to both the deployed application and its corresponding GitHub repository. You can explore the developer's projects by clicking on these links.
 
-* Contact
-The "Contact" section provides a contact form where you can reach out to the developer. The form includes fields for your name, email address, and message. When you move the cursor out of a field without entering any text, you will receive a notification indicating that the field is required. If you enter an invalid email address, a notification will inform you of the error.
+* Contact - The "Contact" section provides a contact form where you can reach out to the developer. The form includes fields for your name, email address, and message. When you move the cursor out of a field without entering any text, you will receive a notification indicating that the field is required. If you enter an invalid email address, a notification will inform you of the error.
 
-* Resume
-In the "Resume" section, you will find a link to download the developer's resume. Additionally, a list of the developer's proficiencies, including programming languages, frameworks, tools, and technologies, will be provided. This section gives you an overview of the developer's skills and areas of expertise.
+* Resume - In the "Resume" section, you will find a link to download the developer's resume. Additionally, a list of the developer's proficiencies, including programming languages, frameworks, tools, and technologies, will be provided. This section gives you an overview of the developer's skills and areas of expertise.
 
-* Footer
-The footer of the portfolio contains text or icon links to the developer's profiles on various platforms. You will find links to their GitHub, LinkedIn, and Facebook. These links allow you to connect with the developer on different platforms and learn more about their work.
+* Footer - The footer of the portfolio contains text or icon links to the developer's profiles on various platforms. You will find links to their GitHub, LinkedIn, and Facebook. These links allow you to connect with the developer on different platforms and learn more about their work.
 
 ## License
 
