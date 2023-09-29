@@ -5,7 +5,7 @@ import React from 'react';
 const HeroImg4 = () => {
 
   const handleDownloadResume = () => {
-    const resumeDownloadLink = 'https://drive.google.com/file/d/1jST9wlWjLMKVmqIHsX_jgZ93SCDvJaWB/view?usp=sharing';
+    const resumeDownloadLink = 'https://drive.google.com/file/d/1wcBF3sGmtSRm1CPR25SPyHc8oHZOBpx8/view?usp=sharing';
     window.open(resumeDownloadLink);
   };
   
